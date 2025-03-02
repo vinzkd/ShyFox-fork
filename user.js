@@ -243,6 +243,9 @@ user_pref("layout.css.prefers-color-scheme.content-override", 0);
 
 /** ShyFox user.js **/
 
+// disable new sidebar
+user_pref("sidebar.revamp", false);
+
 // Fill SVG Color
 user_pref("svg.context-properties.content.enabled", true);
 
